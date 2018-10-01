@@ -46,6 +46,10 @@ Route::get('/partner/dev-squad', function () {
     return view('community-partner-dev-squad');
 });
 
+Route::get('/partner/ideil', function () {
+    return view('community-partner-ideil');
+});
+
 // Route::get('/partner/insider', function () {
 //     return view('community-partner-insider');
 // });
