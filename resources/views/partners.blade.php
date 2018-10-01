@@ -114,7 +114,7 @@
                                 <polygon points="146.362 49.241 154.882 49.241 154.882 40.44 146.362 40.44"/>
                             </svg>
 
-                            <div class="flag">🇺🇸</div>
+                            <div class="flag">🇺🇦</div>
                         </div>
                     </a>
                 </div>
