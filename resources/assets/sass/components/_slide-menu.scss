@@ -29,10 +29,7 @@
     }
 
     .slide-docs-nav {
-        .switcher {
-            float: right;
-            margin-top: -0.75rem;
-
+        .slide-docs-version {
             @media (min-width: 501px) {
                 display: none;
             }
@@ -40,15 +37,12 @@
             .btn {
                 background-color: #ffffff;
                 color: #262626;
+                font-size: 13px;
+                padding: 6px 12px;
                 &:hover,
                 &:active {
                     background-color: #f5f5f5;
                 }
-            }
-
-            .dropdown-menu {
-                right: 0;
-                left: auto;
             }
         }
 
