@@ -50,6 +50,10 @@ Route::get('/partner/ideil', function () {
     return view('community-partner-ideil');
 });
 
+Route::get('/discord', function () {
+    return redirect('https://discord.gg/wTgA8jR');
+});
+
 // Route::get('/partner/insider', function () {
 //     return view('community-partner-insider');
 // });
