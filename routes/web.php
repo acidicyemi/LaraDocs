@@ -54,6 +54,10 @@ Route::get('/discord', function () {
     return redirect('https://discord.gg/wTgA8jR');
 });
 
+Route::get('/certification', function () {
+    return redirect('https://certification.laravel.com');
+});
+
 // Route::get('/partner/insider', function () {
 //     return view('community-partner-insider');
 // });
