@@ -12,21 +12,7 @@ const Hogan = require('./vendor/hogan.js');
 const Mousetrap = require('./vendor/mousetrap.js');
 const algoliasearch = require('./vendor/algoliasearch.js');
 
-new Vue({
-  el: 'nav.main',
-  data: {
-    search: ''
-  },
-  methods: {
-    reset: function() {
-      this.search = '';
-    }
-  }
-})
-
-
 jQuery(function($) {
-
   // Smooth scroll to anchor
   $('body.home a[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//,'') === this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -139,6 +125,11 @@ jQuery(function($) {
     };
     var $searchInput = $('#search-input');
     var $article = $('article');
+
+    // Closes algolia results on blur
+	$searchInput.blur(function () {
+	  $(this).val('')
+    })
 
       // typeahead datasets
       // https://github.com/twitter/typeahead.js/blob/master/doc/jquery_typeahead.md#datasets
