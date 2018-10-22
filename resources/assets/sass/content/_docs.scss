@@ -116,17 +116,26 @@
 }
 
 .docs blockquote.has-icon {
+	background: none;
     position: relative;
+	padding: 0;
 
-    &.video, &.laracasts {
+    .video, .laracasts {
         background: rgba(103, 58, 183, 0.62);
     }
 
-    &.tip {
+    .tip {
         background: #64B5F6;
     }
 
-    p { padding-left: 40px; }
+	.note {
+		background: #f4645f;
+	}
+
+    p {
+		padding: 10px 15px 10px 50px;
+		position: relative;
+	}
 
     .flag {
         position: absolute;
