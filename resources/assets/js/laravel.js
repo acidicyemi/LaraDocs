@@ -125,16 +125,27 @@ jQuery(function($) {
       empty: Hogan.compile($('#search_empty_template').html()),
       footer: Hogan.compile($('#search_footer_template').html())
     };
+
     var $searchInput = $('#search-input');
+    var $mainNav = $('.main-nav');
     var $article = $('article');
 
     // Closes algolia results on blur
-	$searchInput.blur(function () {
-	  $(this).val('')
-    })
+    $searchInput.blur(function () {
+      $(this).val('');
+    });
 
-      // typeahead datasets
-      // https://github.com/twitter/typeahead.js/blob/master/doc/jquery_typeahead.md#datasets
+    // Hides main nav to widen algolia results
+    $searchInput.on('input', function (event) {
+      if (event.currentTarget.value !== '') {
+        $mainNav.hide();
+      } else {
+        $mainNav.show();
+      }
+    });
+
+    // typeahead datasets
+    // https://github.com/twitter/typeahead.js/blob/master/doc/jquery_typeahead.md#datasets
     var datasets = [];
 
     datasets.push({
