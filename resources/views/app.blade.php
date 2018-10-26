@@ -36,7 +36,7 @@
 
         <div class="search nav-block invisible">
             {!! svg('search') !!}
-            <input placeholder="search" type="text" id="search-input" />
+            <input placeholder="search" type="text" id="search-input" aria-label="search"/>
         </div>
 
         <ul class="main-nav">
