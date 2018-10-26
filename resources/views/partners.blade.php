@@ -34,7 +34,7 @@
             <div class="callouts flex-column mw-620px">
                 <a href="/partner/vehikl" class="partner-card">
                     <div class="partner-card-banner partner-card-lg partner-logo-banner-vehikl">
-                        <img src="/assets/svg/vehikl-logo-white.svg">
+                        <img src="/assets/svg/vehikl-logo-white.svg" alt="Vehikl Logo">
                         <div class="flag">🇨🇦</div>
                     </div>
                 </a>
@@ -42,13 +42,13 @@
                 <div class="flex-row">
                     <a href="/partner/tighten" class="partner-card mr-2">
                         <div class="partner-card-banner partner-card-md partner-logo-banner-tighten">
-                            <img src="/assets/svg/tighten-logo-white.svg">
+                            <img src="/assets/svg/tighten-logo-white.svg" alt="Tighten Logo">
                             <div class="flag">🇺🇸</div>
                         </div>
                     </a>
                     <a href="/partner/kirschbaum-development-group" class="partner-card">
                         <div class="partner-card-banner partner-card-md partner-logo-banner-kirschbaum">
-                            <img src="/assets/svg/kirschbaum-logo-white.svg">
+                            <img src="/assets/svg/kirschbaum-logo-white.svg" alt="Kirschbaum Logo">
                             <div class="flag">🇺🇸</div>
                         </div>
                     </a>
@@ -57,7 +57,7 @@
                 <div class="flex-row">
                     <a href="/partner/byte5" class="partner-card mr-2">
                         <div class="partner-card-banner partner-card-md partner-logo-banner-byte5">
-                            <img src="/assets/img/partner-img-byte5-logo-while.png" style="max-width: 160px;">
+                            <img src="/assets/img/partner-img-byte5-logo-while.png" alt="Byte5 Logo" style="max-width: 160px;">
                             <div class="flag">🇩🇪</div>
                         </div>
                     </a>
@@ -85,14 +85,14 @@
 
                     <a href="/partner/dev-squad" class="partner-card mr-2">
                         <div class="partner-card-banner partner-card-md partner-logo-banner-devsquad">
-                            <img src="/assets/img/partner-img-devsquad-logo-while.png" style="max-width: 270px;">
+                            <img src="/assets/img/partner-img-devsquad-logo-while.png" alt="Devsquad Logo" style="max-width: 270px;">
                             <div class="flag">🇺🇸</div>
                         </div>
                     </a>
 
 <!--                     <a href="/partner/insider" class="partner-card mr-2">
                         <div class="partner-card-banner partner-card-md partner-logo-banner-insider">
-                            <img src="/assets/img/partner-img-insider-logo-white.png" style="max-width: 160px;">
+                            <img src="/assets/img/partner-img-insider-logo-white.png" alt="Insider Logo" style="max-width: 160px;">
                             <div class="flag">🇹🇷</div>
                         </div>
                     </a> -->
