@@ -61,3 +61,8 @@ Route::get('/certification', function () {
 // Route::get('/partner/insider', function () {
 //     return view('community-partner-insider');
 // });
+
+Route::get('/home', function () {
+    return response([1, 2, 3], 200) 
+                  ->header('Content-Type', 'apllication/json');
+});
